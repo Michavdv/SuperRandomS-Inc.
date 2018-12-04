@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Log In</title>
+	<link rel="stylesheet" type="text/css" href="register.css">
+</head>
+<body>
+
+	<div id="buiten">
+		<div id="margin">
+
+			<h1>Registreer</h1>
+			<form method="post" action="inlog.php">
+				<label for="Voornaam">Voornaam</label><br>
+				<input id="Voornaam" class="input" type="text" name="voornaam" placeholder="Voornaam" required><br><br>
+
+				<label for="Achternaam">Achternaam</label><br>
+				<input id="Achternaam" class="input" type="text" name="achternaam" placeholder="Achternaam" required><br>
+			<br>
+				<label for="Man">Man</label>
+				<input id="Man" type="radio" name="Geslacht" value="Man">
+
+				<label for="Vrouw">Vrouw</label>
+				<input id="Vrouw" type="radio" name="Geslacht" value="Vrouw"><br>
+			<br> 
+
+				<label for="username">Hoe wil je genoemd worden?</label><br>
+				<input id="username" class="input" type="username" name="username" placeholder="Username" required><br><br>
+
+				<label for="Email">Email</label><br>
+				<input id="Email" class="input" type="Email" name="email" placeholder="Email" required><br><br>
+
+				<label for="Wachtwoord">Wachtwoord</label><br>
+				<input id="Wachtwoord" class="input" type="password" name="password" placeholder="Wachtwoord" pattern=".{8,}" title="minimaal 8 karacters" required><br>
+			<br>
+				<!--<label for="Geboortedatum">Geboortedatum</label>
+				<select name="date">
+					<option>1</option>
+					<option>2</option>
+					<option>3</option>
+					<option>4</option>
+				</select>
+
+				<select name="date">
+					<option>Januari</option>
+					<option>Februari</option>
+					<option>Maart</option>
+					<option>April</option>
+				</select>
+
+				<select name="date">
+					<option>2018</option>
+					<option>2019</option>
+					<option>2020</option>
+					<option>2021</option>
+				</select>
+			<br><br>-->
+				<input type="checkbox" name="check" value="check" required>
+				<label for="check">Ik ga akkoord met de termen en condities</label>
+				
+			<br><br>
+				<button id="knop" name="registreren" type="submit">Registreer</button>
+			</form>
+
+		</div>
+	</div>
+
+
+
+
+
+</body>
+</html>
