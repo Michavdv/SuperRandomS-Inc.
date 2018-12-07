@@ -8,13 +8,14 @@
  
 	 //inloggen
 	 if (isset($_POST["inloggen"])) {
-	  $username = $_POST['username'];
+	  $_SESSION['username'] = $_POST['username'];
+	  $username = $_SESSION['username'];
 	  $password = $_POST['password'];
 	  
 	  $query = "SELECT * FROM `personen` WHERE username = '$username' AND password = '$password'";
 	  $result = mysqli_query($mysql,$query);
 	  if(mysqli_num_rows($result) == 1) {
-	   include "Doorstuursite.html";
+	   include "Oefennaam.php";
 	   die;
 	  } 
 	  else {

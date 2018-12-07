@@ -27,8 +27,15 @@
 					<li><a href="#">Contact</a></li>
 				</ul>
 				<ul class="nav navbar-nav navbar-right">
-					<li><a href="inlog.html">Log In</a></li>
-					<li><a href="register.html">Registreer</a></li>
+					<!--<li><a href="inlog.php">Log In</a></li>
+					<li><a href="register.html">Registreer</a></li>-->
+					<li><?php
+
+						$welkom = $_SESSION['username'];
+						include "dropdown.php";
+
+					?>
+					</li>
 				</ul>
 				</div>
 			</div>

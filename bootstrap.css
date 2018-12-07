@@ -4,6 +4,46 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    color: red;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    border-bottom: 1px red solid;
+    border-right: 1px red solid;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 8px 8px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {background-color: #ddd;}
+
+.show {display: block;}
+
+#username:hover {
+  color:red;
+}
+
+
+
+
+
 .tweedelaag {
   padding: 0 auto;
 }
@@ -25,7 +65,6 @@
   color: white;
   padding-top: 10px;
 }
-
 
 html {
   font-family: sans-serif;
