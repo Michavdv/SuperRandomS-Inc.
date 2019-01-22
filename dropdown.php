@@ -9,8 +9,9 @@
 	<div class="dropdown">
 	<li><a onclick="myFunction()" id="tabs" class="dropbtn"><?php echo $welkom ?></a>
   	<div id="myDropdown" class="dropdown-content">
-    	<a href="Oefen.html" style="color: black;">Uitloggen</a>
-    	
+      <form method="post">
+    	<input type="submit" id="knop" name="uitloggen" value="Uitloggen" style="color: black;">
+    	</form>
   	</div>
   	</li>
 	</div>
@@ -39,3 +40,6 @@ window.onclick = function(event) {
 
 </body>
 </html>
+
+
+

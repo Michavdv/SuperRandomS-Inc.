@@ -19,15 +19,16 @@
     background-color: white;
     border-bottom: 1px red solid;
     border-right: 1px red solid;
-    min-width: 160px;
+    min-width: 130px;
     overflow: auto;
     box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
 
 .dropdown-content a {
+    background-color: white;
     color: black;
-    padding: 8px 8px;
+    padding: 16px 16px;
     text-decoration: none;
     display: block;
 }
@@ -40,9 +41,11 @@
   color:red;
 }
 
-
-
-
+#knop {
+  background-color: white;
+  border: 0px;
+  padding: 8px 8px;
+}
 
 .tweedelaag {
   padding: 0 auto;
@@ -64,6 +67,10 @@
 #Intro {
   color: white;
   padding-top: 10px;
+}
+
+.navbar-nav:hover {
+  cursor: pointer;
 }
 
 html {

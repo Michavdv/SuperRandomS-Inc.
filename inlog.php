@@ -10,12 +10,13 @@
 	 if (isset($_POST["inloggen"])) {
 	  $_SESSION['username'] = $_POST['username'];
 	  $username = $_SESSION['username'];
-	  $password = $_POST['password'];
+	  $_SESSION['password'] = $_POST['password'];
+	  $password = $_SESSION['password'];
 	  
 	  $query = "SELECT * FROM `personen` WHERE username = '$username' AND password = '$password'";
 	  $result = mysqli_query($mysql,$query);
 	  if(mysqli_num_rows($result) == 1) {
-	   include "Oefennaam.php";
+	   header('location: Oefennaam.php');
 	   die;
 	  } 
 	  else {
@@ -56,7 +57,7 @@
 		   echo "<script>
 		     alert(\"De gegevens zijn succesvol geregistreerd!\");
 		      </script>";
-		    include "inlog.html";
+		    header('location: Inlog.html');
 	  } 
 	  
 	  }

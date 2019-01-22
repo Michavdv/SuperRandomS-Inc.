@@ -30,9 +30,23 @@
 					<!--<li><a href="inlog.php">Log In</a></li>
 					<li><a href="register.html">Registreer</a></li>-->
 					<li><?php
+						session_start();
 
 						$welkom = $_SESSION['username'];
+						
+					        if (isset($_POST["uitloggen"])) {
+
+					        
+					        //$uitloggen = $_POST['uitloggen'];
+					          session_unset();
+					          session_destroy();
+					          
+					          header('location: Oefen.html');
+					           } 
+					       
+					      
 						include "dropdown.php";
+
 
 					?>
 					</li>
