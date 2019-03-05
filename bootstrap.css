@@ -41,6 +41,18 @@
   color:red;
 }
 
+#demo {
+  color: white;
+  text-align: center;
+  
+
+
+}
+
+#demo:hover {
+
+}
+
 #knop {
   background-color: white;
   border: 0px;
@@ -56,7 +68,7 @@
   font-family: 'Fira Sans', sans-serif; 
   letter-spacing: 1px;
   color: white;
-  text-shadow: 2px 2px red;
+  /*text-shadow: 2px 2px red;*/
 }
 
 #tabs a{
@@ -67,6 +79,8 @@
 #Intro {
   color: white;
   padding-top: 10px;
+  text-align: center;
+
 }
 
 .navbar-nav:hover {
@@ -124,6 +138,7 @@ abbr[title] {
 b,
 strong {
   font-weight: bold;
+  text-shadow: 2px 2px red;
 }
 dfn {
   font-style: italic;

@@ -41,7 +41,7 @@
 					          session_unset();
 					          session_destroy();
 					          
-					          header('location: Oefen.html');
+					          header('location: Verkoopsite.html');
 					           } 
 					       
 					      

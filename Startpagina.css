@@ -1,0 +1,51 @@
+body {
+	background-image: url("https://technology.inquirer.net/files/2017/10/the-most-famous-windows-wallpaper-ever-turns-20-505668-2.jpg");
+	margin: 0;
+}
+
+table {
+	margin: 7px;
+}
+
+img {
+	padding: 10px;
+}
+
+.navbar {
+  overflow: hidden;
+  
+ background: #1b96d3;
+background: -moz-linear-gradient(top, #1b96d3 0%, #a8c5ff 2%, #1d86d6 10%, #106fce 51%, #047fd1 86%, #0477d6 98%);
+background: -webkit-linear-gradient(top, #1b96d3 0%,#a8c5ff 2%,#1d86d6 10%,#106fce 51%,#047fd1 86%,#0477d6 98%);
+background: linear-gradient(to bottom, #1b96d3 0%,#a8c5ff 2%,#1d86d6 10%,#106fce 51%,#047fd1 86%,#0477d6 98%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1b96d3', endColorstr='#0477d6',GradientType=0 );
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 6px 16px;
+  text-decoration: none;
+  font-size: 17px;
+
+}
+
+.navbar a.active {
+  background-image: url('xpstart.png');
+ color:rgba(0,0,0,0);
+}
+
+.navbar a.active:hover {
+  background-image: url('xphover.png');
+ color:rgba(0,0,0,0);
+}
+
+.navbar a.active:active {
+  background-image: url('xpclick.png');
+ color:rgba(0,0,0,0);
+}
