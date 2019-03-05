@@ -1,0 +1,17 @@
+RAMEN RV WINDOWS NOSTALGIA EXPERIENCE
+
+INHOUD
+1. Laadscherm
+2. startpagina
+ - Startmenu
+ - Applicaties 
+
+LAADSCHERM
+Wanneer u de emulator opent, komt u eerst op een laadscherm terecht. U zult na maximaal 60 seconden doorgestuurd
+worden naar de startpagina. Geen paniek wanneer u een blauw scherm krijgt. Als u de emulator opnieuw opstart
+kunt u het opnieuw proberen.
+
+
+STARTPAGINA
+Wanneer de  emulator klaar is met laden, zult u op de startpagina terecht komen, waar u alle functies van deze
+emulator optimaal kunt benutten. 
